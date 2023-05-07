@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/connection/lapeki_dbs.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/dao/impl/CartDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/dao/impl/CartLineDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/dao/impl/CategoryDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/dao/impl/ProductDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/dao/impl/UserDAOImpl.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ecommerce/dao/impl/VoucherDAOImpl.java" dialect="GenericSQL" />
+  </component>
+</project>
