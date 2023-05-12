@@ -1,5 +1,5 @@
 import React from 'react';
-import people from '../../assets/people.jpg'
+import logo from '../../assets/logo.png'
 import './header.css'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
               <h1 className ='gradient__text'>
                 I'm a web desinger and front-end developer
               </h1>
-              <p className='header__text_p'>My name is Lan , from Vinh Phuc</p>
+              <p className='header__text_p'>My name is Phuong Lan , from Vinh Phuc</p>
             <div className='header-content_contact'>
                 <button type='button'>
                     Contact me !
@@ -20,7 +20,7 @@ const Header = () => {
            </div>
 
            <div className='header-image'>
-                <img src={people}/>
+                <img src={logo}/>
             </div>
 
 

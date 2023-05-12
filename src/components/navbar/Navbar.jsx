@@ -4,9 +4,15 @@ import {RiMenu3Line} from 'react-icons/ri'
 import {RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/logo.png';
 import {useState} from 'react';
+import {useEffect } from 'react';
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu]=useState(false);
+   
+    
+
+    
+   
     return (
 
         
@@ -16,7 +22,8 @@ const Navbar = () => {
                   <img src={logo} alt ='logo'></img>
                   <h2 className='navbar-links_logo_text'>ELIAS</h2>
             </div>
-            <div className='navbar-links_container'>
+            <div className='navbar-links_container'
+                 >
                 <p><a href='#home'>Home</a></p>
                 <p><a href='#work'>Work</a></p>
                 <p><a href='#about-me'>About me</a></p>

@@ -1,3 +1,4 @@
+
 .navbar{
       display: flex;
       justify-content: space-between;
@@ -48,7 +49,7 @@
 
     /* global 94%+ browsers support */
     background:linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 0, 255, 1) 100%);
-    color: #3e1aac;
+    
     padding: 8px 16px;
     border-radius: 10px;
     box-shadow: 2px seashell;
@@ -100,6 +101,9 @@
     display: flex;
     flex-direction: row;
     margin-left: 130px;
+    transition: all 1 s;
+    
+    
    
   }
   .navbar-links_container p{

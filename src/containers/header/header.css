@@ -65,3 +65,23 @@
     border-radius: 10px;
     
 }
+@media screen and (max-width:750px){
+    .header {
+        flex-direction: column;
+
+    }
+    .header-content h1{
+        font-weight: 400px;
+        font-size: 29px;
+        line-height: 45px;
+        letter-spacing: 0.04rem;
+    }
+
+    .header-image img{
+        margin-top: 50px;
+        width: 50%;
+        height: 50%;
+        border-radius: 10px;
+    }
+}
+
